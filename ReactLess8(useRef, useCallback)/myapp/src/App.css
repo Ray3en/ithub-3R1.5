@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  height: 180px;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 70px;
+}
+
+.card{
+  margin: 60px 0;
+  padding: 50px;
+  height: 150px;
+  background-color: rgb(25, 196, 51);
+}
+
+.red{
+  background-color: red;
+}
+
+
+/* 
+ Для компонента Example
+ul {
+  margin: 30px;
+  height: 250px;
+  border: 2px solid black;
+  overflow: scroll;
+}
+
+li {
+  padding: 20px;
+  border: 1px solid black;
+}
+
+button {
+  margin: 30px;
+  width: 80%;
+  height: 50px;
+} */

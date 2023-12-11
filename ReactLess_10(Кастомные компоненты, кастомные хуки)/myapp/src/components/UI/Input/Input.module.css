@@ -1,0 +1,30 @@
+.inp_elem{
+    width: 100px;
+    height: 20px;
+
+    padding: 0px 10px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 1px black;
+
+    border: 2px solid black;
+}
+
+.inp_elem:focus{
+    border: 2px solid green;
+    outline: none;
+}
+
+.xl{
+    width: 130px;
+    height: 30px;
+}
+
+.l{
+    width: 110px;
+    height: 26px;
+}
+
+.s{
+    width: 80px;
+    height: 26px;
+}

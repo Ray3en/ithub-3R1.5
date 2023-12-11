@@ -1,0 +1,25 @@
+.btn_elem{
+    margin: 5px;
+    height: 45px;
+    padding: 0 30px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.green{
+    color: black;
+    background-color: #50a553;
+    border: none;
+}
+
+.black{
+    color: white;
+    background-color: #202020;
+    border: none;
+}
+
+.white{
+    color: black;
+    background-color: #e7e7e7;
+    border: 1px solid gray;
+}
