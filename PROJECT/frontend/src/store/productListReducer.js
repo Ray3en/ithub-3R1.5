@@ -18,7 +18,6 @@ export const productListReducer = (state = defaultState, action) => {
         case PRODUCTS_BY_CATEGORY:
             return {categories_name: action.payload.category.title, products: action.payload.data}
         case 'RAZ_DVA':
-            filter........
             return {...state, products}
         default: 
         return state

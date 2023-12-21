@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux"
 import { fetchAllProducts, fetchAllProductsSale, fetchProductsByCategories } from "../asyncActions/products"
 import { useLocation, useParams } from "react-router-dom"
 import { BASE_URL } from ".."
+import { addNEwItemAction } from "../store/cartReducer"
 
 
 function ProductListPage({type}){
@@ -31,6 +32,7 @@ function ProductListPage({type}){
                     <div key={elem.id}>
                         <img src={BASE_URL+elem.image} width={200}/>
                         <p>{elem.title}</p>
+                        <button onClick={() => dispatch(addNEwItemAction({...elem, count: 1}))}>Add to cart</button>
                     </div>
                 )}
             </div>
